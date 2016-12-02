@@ -24,7 +24,7 @@ public class EncryptDecrypt {
 		  }
 		  Key key = keystore.getKey("key1", "keypass".toCharArray());
 		  SecretKeySpec secretKeySpecification = new SecretKeySpec(key.getEncoded(), "AES");
-		  IvParameterSpec iv = new IvParameterSpec("abcdefgh2015@_sr".getBytes("UTF-8"));
+		  IvParameterSpec iv = new IvParameterSpec("abcdef".getBytes("UTF-8"));
 
 		  String encryptText = "admin:password";
 
