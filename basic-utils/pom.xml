@@ -6,6 +6,27 @@
   
   
   
+      <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.7</version>
+        </dependency>
+<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+<dependency>
+    <groupId>commons-codec</groupId>
+    <artifactId>commons-codec</artifactId>
+    <version>1.10</version>
+</dependency>
+
+
+
+
+
+    </dependencies>
+  
+  
   
   
   
